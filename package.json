@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "version": "",
+  "scripts": {
+    "start:dilbert": "node dilbert.js",
+    "prestart:dilbert": "rm -f logs/*.png",
+    "start:commitstrip": "node commit-strip.js",
+    "prestart:commitstrip": "rm -f logs/*.png",
+    "start:likepost": "node like-posts.js",
+    "prestart:likepost": "rm -f logs/*.png"
+  },
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  }
+}
